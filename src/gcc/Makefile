@@ -4,6 +4,7 @@ OUTPUT_DIRECTORY := _build
 
 SDK_ROOT := ../..
 PROJ_DIR := ../..
+MAIN_DIR := ..
 
 $(OUTPUT_DIRECTORY)/nrf51422_xxac.out: \
 LINKER_SCRIPT  := blinky_FreeRTOS_gcc_nrf51.ld
@@ -38,7 +39,7 @@ $(SDK_ROOT)/components/drivers_nrf/nrf_soc_nosd/nrf_nvic.c \
 $(SDK_ROOT)/components/drivers_nrf/nrf_soc_nosd/nrf_soc.c \
 $(SDK_ROOT)/components/libraries/bsp/bsp.c \
 $(SDK_ROOT)/components/libraries/bsp/bsp_nfc.c \
-$(PROJ_DIR)/main.c \
+$(MAIN_DIR)/main.c \
 $(SDK_ROOT)/external/segger_rtt/RTT_Syscalls_GCC.c \
 $(SDK_ROOT)/external/segger_rtt/SEGGER_RTT.c \
 $(SDK_ROOT)/external/segger_rtt/SEGGER_RTT_printf.c \
