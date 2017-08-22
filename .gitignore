@@ -1,0 +1,6 @@
+/src/gcc/_build/
+
+# IDE
+CMakeLists.txt
+*.iml
+
