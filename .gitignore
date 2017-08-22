@@ -3,4 +3,4 @@
 # IDE
 CMakeLists.txt
 *.iml
-
+/cmake-build-debug/
